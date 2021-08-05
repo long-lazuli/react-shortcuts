@@ -5,7 +5,7 @@ import sinonChai from 'sinon-chai'
 import sinon from 'sinon'
 import _ from 'lodash'
 import enzyme from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17'
 import keymap from './keymap'
 
 enzyme.configure({ adapter: new Adapter() })
